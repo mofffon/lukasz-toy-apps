@@ -161,6 +161,7 @@ function QueensOnChessBoard() {
     setGameState(config.gameStates[2]);
     setFields(buildDefaultFields());
     setShowColors(false);
+    setQueenCount(0);
   };
 
   const gameWon = () => {
