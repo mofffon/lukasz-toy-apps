@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.container{justify-content:center;margin:auto;width:1200px}.gameSquare{border:1px solid #000;display:inline-block;height:auto;width:auto}.board{display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;height:400px}.board,.menu{width:400px}
+/*# sourceMappingURL=main.26af7f75.css.map*/
