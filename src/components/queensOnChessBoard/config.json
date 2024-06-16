@@ -1,0 +1,19 @@
+{
+  "rowIndexes": [0, 1, 2, 3, 4, 5, 6, 7],
+  "columnIndexes": [0, 1, 2, 3, 4, 5, 6, 7],
+  "gameStates": [
+    "beforeStart",
+    "gameOn",
+    "reset",
+    "gameEndPlayerWon",
+    "gameEndPlayerLost"
+  ],
+  "fieldStates": ["free", "taken", "unavailable"],
+  "gameMessages": [
+    "Click Start to play",
+    "Place 8 queens so they don't attack each other",
+    "Game Reset, click Start to play",
+    "Congratulations, you have won !! Click Reset",
+    "Sorry, you have lost... Click Reset"
+  ]
+}

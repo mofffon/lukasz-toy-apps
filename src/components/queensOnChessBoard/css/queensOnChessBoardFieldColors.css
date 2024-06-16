@@ -1,0 +1,11 @@
+.free {
+  background-color: greenyellow;
+}
+
+.taken {
+  background-color: crimson;
+}
+
+.unavailable {
+  background-color: yellow;
+}
