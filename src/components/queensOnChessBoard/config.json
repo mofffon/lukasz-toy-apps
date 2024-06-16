@@ -9,11 +9,19 @@
     "gameEndPlayerLost"
   ],
   "fieldStates": ["free", "taken", "unavailable"],
-  "gameMessages": [
+  "languages": ["PL", "EN"],
+  "gameMessagesEN": [
     "Click Start to play",
     "Place 8 queens so they don't attack each other",
     "Game Reset, click Start to play",
     "Congratulations, you have won !! Click Reset",
     "Sorry, you have lost... Click Reset"
+  ],
+  "gameMessagesPL": [
+    "Kliknij start, aby zacząć",
+    "Ustaw 8 królowych tak, aby nie biły się",
+    "Gra zrestowana. Kliknij Start, aby zacząć",
+    "Gratulacje, wygrano grę !! Kliknij Reset",
+    "Przykro mi, przegrano grę... Kliknij Reset"
   ]
 }

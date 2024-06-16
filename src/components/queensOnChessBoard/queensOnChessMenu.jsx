@@ -1,6 +1,8 @@
 import config from "./config.json";
 
 export default function ({
+  language,
+  pickLanguage,
   queenCount,
   toggleShowColors,
   gameState,
@@ -9,11 +11,13 @@ export default function ({
 }) {
   let menuInside = null;
 
+  const languageString = "gameMessages" + language;
+
   if (gameState === config.gameStates[0]) {
     menuInside = (
       <div className="menu">
         <p className="userMessage">
-          Message: <span>{config.gameMessages[0]}</span>
+          Message: <span>{config[languageString][0]}</span>
         </p>
         <button className="menuButton" onClick={gameStart}>
           Start
@@ -24,6 +28,10 @@ export default function ({
         <button className="menuButton" disabled onClick={toggleShowColors}>
           Toggle Show Spaces
         </button>
+        <select onChange={pickLanguage}>
+          <option value={config.languages[0]}>Polski</option>
+          <option value={config.languages[1]}>English</option>
+        </select>
         <div style={{ float: "right", dispaly: "inline" }}>
           Score: {queenCount} / 8
         </div>
@@ -33,7 +41,7 @@ export default function ({
     menuInside = (
       <div className="menu">
         <p className="userMessage">
-          Message: <span>{config.gameMessages[1]}</span>
+          Message: <span>{config[languageString][1]}</span>
         </p>
         <button className="menuButton" disabled onClick={gameStart}>
           Start
@@ -44,6 +52,10 @@ export default function ({
         <button className="menuButton" onClick={toggleShowColors}>
           Toggle Show Spaces
         </button>
+        <select onChange={pickLanguage}>
+          <option value={config.languages[0]}>Polski</option>
+          <option value={config.languages[1]}>English</option>
+        </select>
         <div style={{ float: "right", dispaly: "inline" }}>
           Score: {queenCount} / 8
         </div>
@@ -53,7 +65,7 @@ export default function ({
     menuInside = (
       <div className="menu">
         <p className="userMessage">
-          Message: <span>{config.gameMessages[2]}</span>
+          Message: <span>{config[languageString][2]}</span>
         </p>
         <button className="menuButton" onClick={gameStart}>
           Start
@@ -64,6 +76,10 @@ export default function ({
         <button className="menuButton" onClick={toggleShowColors}>
           Toggle Show Spaces
         </button>
+        <select onChange={pickLanguage}>
+          <option value={config.languages[0]}>Polski</option>
+          <option value={config.languages[1]}>English</option>
+        </select>
         <div style={{ float: "right", dispaly: "inline" }}>
           Score: {queenCount} / 8
         </div>
@@ -73,7 +89,7 @@ export default function ({
     menuInside = (
       <div className="menu">
         <p className="userMessage">
-          Message: <span>{config.gameMessages[3]}</span>
+          Message: <span>{config[languageString][3]}</span>
         </p>
         <button className="menuButton" disabled onClick={gameStart}>
           Start
@@ -84,6 +100,10 @@ export default function ({
         <button className="menuButton" onClick={toggleShowColors}>
           Toggle Show Spaces
         </button>
+        <select onChange={pickLanguage}>
+          <option value={config.languages[0]}>Polski</option>
+          <option value={config.languages[1]}>English</option>
+        </select>
         <div style={{ float: "right", dispaly: "inline" }}>
           Score: {queenCount} / 8
         </div>
@@ -93,7 +113,7 @@ export default function ({
     menuInside = (
       <div className="menu">
         <p className="userMessage">
-          Message: <span>{config.gameMessages[4]}</span>
+          Message: <span>{config[languageString][4]}</span>
         </p>
         <button className="menuButton" disabled onClick={gameStart}>
           Start
@@ -104,6 +124,10 @@ export default function ({
         <button className="menuButton" onClick={toggleShowColors}>
           Toggle Show Spaces
         </button>
+        <select onChange={pickLanguage}>
+          <option value={config.languages[0]}>Polski</option>
+          <option value={config.languages[1]}>English</option>
+        </select>
         <div style={{ float: "right", dispaly: "inline" }}>
           Score: {queenCount} / 8
         </div>

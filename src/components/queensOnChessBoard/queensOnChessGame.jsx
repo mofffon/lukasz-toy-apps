@@ -8,6 +8,7 @@ function QueensOnChessBoard() {
   let [gameState, setGameState] = useState(config.gameStates[0]);
   let [showColors, setShowColors] = useState(false);
   let [queenCount, setQueenCount] = useState(0);
+  let [language, setLanguage] = useState("PL");
 
   const buildDefaultFields = () => {
     const defFields = [];
@@ -26,6 +27,10 @@ function QueensOnChessBoard() {
   };
 
   const [fields, setFields] = useState(buildDefaultFields());
+
+  const pickLanguage = (e) => {
+    setLanguage(e.target.value);
+  };
 
   const verifyGameState = () => {
     let freeCount = 0;
@@ -179,6 +184,8 @@ function QueensOnChessBoard() {
   return (
     <>
       <Menu
+        language={language}
+        pickLanguage={pickLanguage}
         queenCount={queenCount}
         toggleShowColors={toggleShowColors}
         gameState={gameState}
