@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lukasz-toy-apps/static/css/main.42693786.css",
-    "main.js": "/lukasz-toy-apps/static/js/main.ac97c974.js",
+    "main.css": "/lukasz-toy-apps/static/css/main.0bcaac74.css",
+    "main.js": "/lukasz-toy-apps/static/js/main.a69d9bc4.js",
     "static/media/crown.svg": "/lukasz-toy-apps/static/media/crown.615d005323b9ed2f936ac18686faaf36.svg",
     "index.html": "/lukasz-toy-apps/index.html",
-    "main.42693786.css.map": "/lukasz-toy-apps/static/css/main.42693786.css.map",
-    "main.ac97c974.js.map": "/lukasz-toy-apps/static/js/main.ac97c974.js.map"
+    "main.0bcaac74.css.map": "/lukasz-toy-apps/static/css/main.0bcaac74.css.map",
+    "main.a69d9bc4.js.map": "/lukasz-toy-apps/static/js/main.a69d9bc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.42693786.css",
-    "static/js/main.ac97c974.js"
+    "static/css/main.0bcaac74.css",
+    "static/js/main.a69d9bc4.js"
   ]
 }
