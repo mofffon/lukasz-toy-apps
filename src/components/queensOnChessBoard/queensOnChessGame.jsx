@@ -133,7 +133,6 @@ function QueensOnChessBoard() {
   };
 
   const makeSquaresUnavailableDiagonalReverse = (square) => {
-    console.log(square);
     let rowIndex = parseInt(square.dataset.rowindex);
     let columnIndex = parseInt(square.dataset.columnindex);
 
