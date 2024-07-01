@@ -24,16 +24,23 @@ const SnakeGame = () => {
   let [timeInterval, setTimeInterval] = useState(2000);
   let [fields, setFields] = useState(buildFields(snake, bug));
 
-  const gameStart = () => {
-    setGameState(config.gameStates[1]);
-
+  const intialSnakeSetup = () => {
     setSnake(new Snake({ rowIndex: 12, columnIndex: 7 }));
     setBug(new Bug({ rowIndex: 8, columnIndex: 7 }));
     setGameScore(0);
     setMovesCount(0);
     setDirection("up");
     setFields(buildFields(snake, bug));
+  };
 
+  const gameReset = () => {
+    setGameState(config.gameStates[5]);
+    intialSnakeSetup();
+  };
+
+  const gameStart = () => {
+    setGameState(config.gameStates[1]);
+    intialSnakeSetup();
     startGameMotor();
   };
 
@@ -188,6 +195,7 @@ const SnakeGame = () => {
         movesCount={movesCount}
         gameScore={gameScore}
         gamePause={gamePause}
+        gameReset={gameReset}
         selectDifficulty={onDifficultySelect}
       />
       <Board fields={fields} />

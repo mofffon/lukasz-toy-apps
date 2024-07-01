@@ -2,6 +2,7 @@ import config from "./config.json";
 
 const SnakeMenu = ({
   gameStart,
+  gameReset,
   movesCount,
   gamePause,
   gameScore,
@@ -11,17 +12,22 @@ const SnakeMenu = ({
   if (gameState === config.gameStates[0]) {
     return (
       <div className="menuGrid">
-        <button onClick={gameStart}>Start</button>
-        <button onClick={gamePause} disabled>
+        <button className="snakeMenuControl" onClick={gameStart}>
+          Start
+        </button>
+        <button className="snakeMenuControl" onClick={gamePause} disabled>
           Pause
         </button>
-        <select onChange={selectDifficulty}>
+        <button className="snakeMenuControl" onClick={gameReset}>
+          Reset
+        </button>
+        <select className="snakeMenuControl" onChange={selectDifficulty}>
           <option value="easy">easy</option>
           <option value="normal">normal</option>
           <option value="hard">hard</option>
         </select>
-        <span>Moves count: {movesCount}</span>
-        <span>Score: {gameScore}</span>
+        <span className="snakeMenuControl">Moves count: {movesCount}</span>
+        <span className="snakeMenuControl">Score: {gameScore}</span>
       </div>
     );
   } else if (
@@ -30,17 +36,26 @@ const SnakeMenu = ({
   ) {
     return (
       <div className="menuGrid">
-        <button onClick={gameStart} disabled>
+        <button className="snakeMenuControl" onClick={gameStart} disabled>
           Start
         </button>
-        <button onClick={gamePause}>Pause</button>
-        <select onChange={selectDifficulty} disabled>
+        <button className="snakeMenuControl" onClick={gamePause}>
+          Pause
+        </button>
+        <button className="snakeMenuControl" onClick={gameReset}>
+          Reset
+        </button>
+        <select
+          className="snakeMenuControl"
+          onChange={selectDifficulty}
+          disabled
+        >
           <option value="easy">easy</option>
           <option value="normal">normal</option>
           <option value="hard">hard</option>
         </select>
-        <span>Moves count: {movesCount}</span>
-        <span>Score: {gameScore}</span>
+        <span className="snakeMenuControl">Moves count: {movesCount}</span>
+        <span className="snakeMenuControl">Score: {gameScore}</span>
       </div>
     );
   } else if (
@@ -49,32 +64,64 @@ const SnakeMenu = ({
   ) {
     return (
       <div className="menuGrid">
-        <button onClick={gameStart}>Start</button>
-        <button onClick={gamePause} disabled>
+        <button className="snakeMenuControl" onClick={gameStart}>
+          Start
+        </button>
+        <button className="snakeMenuControl" onClick={gamePause} disabled>
           Pause
         </button>
-        <select onChange={selectDifficulty}>
+        <button className="snakeMenuControl" onClick={gameReset}>
+          Reset
+        </button>
+        <select className="snakeMenuControl" onChange={selectDifficulty}>
           {config.difficultyLevels.map((level) => (
             <option value={level}>{level}</option>
           ))}
         </select>
-        <span>Moves count: {movesCount}</span>
-        <span>Score: {gameScore}</span>
+        <span className="snakeMenuControl">Moves count: {movesCount}</span>
+        <span className="snakeMenuControl">Score: {gameScore}</span>
+      </div>
+    );
+  } else if (gameState === config.gameStates[5]) {
+    return (
+      <div className="menuGrid">
+        <button className="snakeMenuControl" onClick={gameStart}>
+          Start
+        </button>
+        <button className="snakeMenuControl" onClick={gamePause} disabled>
+          Pause
+        </button>
+        <button className="snakeMenuControl" onClick={gameReset}>
+          Reset
+        </button>
+        <select className="snakeMenuControl" onChange={selectDifficulty}>
+          <option value="easy">easy</option>
+          <option value="normal">normal</option>
+          <option value="hard">hard</option>
+        </select>
+        <span className="snakeMenuControl">Moves count: {movesCount}</span>
+        <span className="snakeMenuControl">Score: {gameScore}</span>
       </div>
     );
   }
-
   return (
     <div className="menuGrid">
-      <button onClick={gameStart}>Start</button>
-      <button onClick={gamePause}>Pause</button>
-      <select onChange={selectDifficulty}>
+      <button className="snakeMenuControl" onClick={gameStart}>
+        Start
+      </button>
+      <button className="snakeMenuControl" onClick={gamePause}>
+        Pause
+      </button>
+      <button className="snakeMenuControl" onClick={gameReset}>
+        Reset
+      </button>
+      <select className="snakeMenuControl" onChange={selectDifficulty}>
         <option value="easy">easy</option>
         <option value="normal">normal</option>
         <option value="hard">hard</option>
       </select>
-      <span>Moves count: {movesCount}</span>
-      <span>Score: {gameScore}</span>
+      <span className="snakeMenuControl">Moves count: {movesCount}</span>
+      <span className="snakeMenuControl">Score: {gameScore}</span>
     </div>
   );
 };

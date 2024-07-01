@@ -6,7 +6,8 @@
     "gameOn",
     "gamePaused",
     "gameEndPlayerWon",
-    "gameEndPlayerLost"
+    "gameEndPlayerLost",
+    "gameReset"
   ],
   "fieldStates": ["free", "snakeHead", "snakeBody ", "bugSitting"],
   "languages": ["PL", "EN"],
