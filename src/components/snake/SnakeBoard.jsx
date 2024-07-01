@@ -11,14 +11,14 @@ const Board = ({ fields, showColors, onSquareClick }) => {
         columnIndex={field.columnIndex}
         showColors={showColors}
         onSquareClick={onSquareClick}
-        className={field.className}
+        className={"snakeSquare " + field.className}
       />
     ));
   };
 
   return (
     <>
-      <div className="board">{generateSquares()}</div>
+      <div className="snakeBoard">{generateSquares()}</div>
     </>
   );
 };
