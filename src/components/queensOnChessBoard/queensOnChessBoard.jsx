@@ -18,7 +18,7 @@ function Board({ showColors, fields, onSquareClick }) {
 
   return (
     <>
-      <div className="board">{generateSquares()}</div>
+      <div className="queensBoard">{generateSquares()}</div>
     </>
   );
 }
