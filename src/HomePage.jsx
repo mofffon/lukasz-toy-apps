@@ -12,6 +12,9 @@ const HomePage = () => {
         <Link className="link" to="/snake">
           Wąż (Snake)
         </Link>
+        <Link className="link" to="/puzzle">
+          Puzzle
+        </Link>
       </div>
     </div>
   );

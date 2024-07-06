@@ -1,0 +1,12 @@
+{
+  "gameStates": ["beforeGameStart", "GameOn", "GameEndPlayerWon"],
+  "boardSize": 4,
+  "pictures": [
+    "Christmas_Eve",
+    "Cats",
+    "Sun_Flower",
+    "Studio_Ghiblis_Totoro",
+    "Pirate_Smurf"
+  ],
+  "picturePath": "./pictures/"
+}
