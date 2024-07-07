@@ -9,8 +9,6 @@ const PuzzleBoard = ({
   picturePiecesNumbers,
   gameState,
 }) => {
-  console.log(config.picturePath + currentPicture + "/");
-
   const buildSquares = () => {
     let counter = 1;
     const arr = [];
