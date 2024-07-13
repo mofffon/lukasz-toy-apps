@@ -15,6 +15,9 @@ const HomePage = () => {
         <Link className="link" to="/puzzle">
           Puzzle
         </Link>
+        <Link className="link" to="/gameOfLife">
+          Game Of Life
+        </Link>
       </div>
     </div>
   );

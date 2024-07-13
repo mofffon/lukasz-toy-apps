@@ -1,0 +1,11 @@
+{
+  "maxTurns": 60,
+  "minBoardSize": 20,
+  "maxBoardSize": 50,
+  "boardSizeInterval": 5,
+  "minSpeed": 2000,
+  "maxSpeed": 500,
+  "gameStates": ["beforeStart", "started"],
+  "minInitialDensity": 20,
+  "maxInitialDensity": 80
+}
