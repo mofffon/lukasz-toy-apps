@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lukasz-toy-apps/static/css/main.76eeae1a.css",
-    "main.js": "/lukasz-toy-apps/static/js/main.264c506b.js",
+    "main.css": "/lukasz-toy-apps/static/css/main.a70370ec.css",
+    "main.js": "/lukasz-toy-apps/static/js/main.1a46eabc.js",
     "static/media/10.jpg": "/lukasz-toy-apps/static/media/10.f32c8924583842ec80a5.jpg",
     "static/media/12.jpg": "/lukasz-toy-apps/static/media/12.7327ff60c0b39438e216.jpg",
     "static/media/11.jpg": "/lukasz-toy-apps/static/media/11.0d834bf1c20708b1c5d9.jpg",
@@ -20,11 +20,11 @@
     "static/media/1.jpg": "/lukasz-toy-apps/static/media/1.fb7805504dcd64de3ab0.jpg",
     "static/media/crown.svg": "/lukasz-toy-apps/static/media/crown.615d005323b9ed2f936ac18686faaf36.svg",
     "index.html": "/lukasz-toy-apps/index.html",
-    "main.76eeae1a.css.map": "/lukasz-toy-apps/static/css/main.76eeae1a.css.map",
-    "main.264c506b.js.map": "/lukasz-toy-apps/static/js/main.264c506b.js.map"
+    "main.a70370ec.css.map": "/lukasz-toy-apps/static/css/main.a70370ec.css.map",
+    "main.1a46eabc.js.map": "/lukasz-toy-apps/static/js/main.1a46eabc.js.map"
   },
   "entrypoints": [
-    "static/css/main.76eeae1a.css",
-    "static/js/main.264c506b.js"
+    "static/css/main.a70370ec.css",
+    "static/js/main.1a46eabc.js"
   ]
 }
