@@ -1,10 +1,21 @@
 {
   "files": {
-    "main.css": "/lukasz-toy-apps/static/css/main.a70370ec.css",
-    "main.js": "/lukasz-toy-apps/static/js/main.1a46eabc.js",
+    "main.css": "/lukasz-toy-apps/static/css/main.455993d1.css",
+    "main.js": "/lukasz-toy-apps/static/js/main.483a36d9.js",
+    "static/media/cat_4.jpg": "/lukasz-toy-apps/static/media/cat_4.a46dd97efc5c65d88ec4.jpg",
+    "static/media/cat_5.jpg": "/lukasz-toy-apps/static/media/cat_5.9d8551959402bcf2c367.jpg",
+    "static/media/cat_8.jpg": "/lukasz-toy-apps/static/media/cat_8.65e70bc2ed8a1f5dc794.jpg",
+    "static/media/tortoise_1.jpg": "/lukasz-toy-apps/static/media/tortoise_1.a98988b8e7e74b790d6c.jpg",
+    "static/media/cat_3.jpg": "/lukasz-toy-apps/static/media/cat_3.6e02375b605378c82f1e.jpg",
+    "static/media/dog_8.jpg": "/lukasz-toy-apps/static/media/dog_8.14296685d5ebbf24f7ef.jpg",
+    "static/media/tortoise_3.jpg": "/lukasz-toy-apps/static/media/tortoise_3.576197e060c77fce0e3f.jpg",
+    "static/media/dog_2.jpg": "/lukasz-toy-apps/static/media/dog_2.1c4e229b4527082041aa.jpg",
+    "static/media/hare_1.jpg": "/lukasz-toy-apps/static/media/hare_1.8db9ff301c20a72c0a04.jpg",
+    "static/media/cat_6.jpg": "/lukasz-toy-apps/static/media/cat_6.65b5cce5064945f42da9.jpg",
     "static/media/10.jpg": "/lukasz-toy-apps/static/media/10.f32c8924583842ec80a5.jpg",
     "static/media/12.jpg": "/lukasz-toy-apps/static/media/12.7327ff60c0b39438e216.jpg",
     "static/media/11.jpg": "/lukasz-toy-apps/static/media/11.0d834bf1c20708b1c5d9.jpg",
+    "static/media/tortoise_2.jpg": "/lukasz-toy-apps/static/media/tortoise_2.8bf6232e5c6c32ca2015.jpg",
     "static/media/16.jpg": "/lukasz-toy-apps/static/media/16.c40b3c1c084554a42c47.jpg",
     "static/media/14.jpg": "/lukasz-toy-apps/static/media/14.7fef89578f892fd89c99.jpg",
     "static/media/15.jpg": "/lukasz-toy-apps/static/media/15.56f068ffb5db318c58e0.jpg",
@@ -13,18 +24,26 @@
     "static/media/13.jpg": "/lukasz-toy-apps/static/media/13.551f205481ef99c740d0.jpg",
     "static/media/5.jpg": "/lukasz-toy-apps/static/media/5.66cebc7738d7e06afe54.jpg",
     "static/media/7.jpg": "/lukasz-toy-apps/static/media/7.df1eb07e528a32d64802.jpg",
+    "static/media/cover_picture_1.jpg": "/lukasz-toy-apps/static/media/cover_picture_1.531f64cee4879cec4b5d.jpg",
     "static/media/2.jpg": "/lukasz-toy-apps/static/media/2.5a76cdc3b1013da5aed4.jpg",
     "static/media/3.jpg": "/lukasz-toy-apps/static/media/3.9b7509609f39eb5490b6.jpg",
     "static/media/8.jpg": "/lukasz-toy-apps/static/media/8.b532f27dd94f9fcff08c.jpg",
     "static/media/4.jpg": "/lukasz-toy-apps/static/media/4.b183ffd447df824a51b6.jpg",
     "static/media/1.jpg": "/lukasz-toy-apps/static/media/1.fb7805504dcd64de3ab0.jpg",
+    "static/media/dog_1.jpg": "/lukasz-toy-apps/static/media/dog_1.d98be3727fff70db2620.jpg",
+    "static/media/dog_7.jpg": "/lukasz-toy-apps/static/media/dog_7.a427b6a5c5b0b6536e0d.jpg",
+    "static/media/hare_2.jpg": "/lukasz-toy-apps/static/media/hare_2.3ce046b661e6760edbe2.jpg",
+    "static/media/dog_3.jpg": "/lukasz-toy-apps/static/media/dog_3.3dd1002ab3721da5a726.jpg",
+    "static/media/dog_6.jpg": "/lukasz-toy-apps/static/media/dog_6.d6eb0d244ced7ab0a2d7.jpg",
+    "static/media/tortoise_4.jpg": "/lukasz-toy-apps/static/media/tortoise_4.2b935bb0a06e0705db64.jpg",
+    "static/media/dog_4.jpg": "/lukasz-toy-apps/static/media/dog_4.acd194fce4dea2c3dcea.jpg",
     "static/media/crown.svg": "/lukasz-toy-apps/static/media/crown.615d005323b9ed2f936ac18686faaf36.svg",
     "index.html": "/lukasz-toy-apps/index.html",
-    "main.a70370ec.css.map": "/lukasz-toy-apps/static/css/main.a70370ec.css.map",
-    "main.1a46eabc.js.map": "/lukasz-toy-apps/static/js/main.1a46eabc.js.map"
+    "main.455993d1.css.map": "/lukasz-toy-apps/static/css/main.455993d1.css.map",
+    "main.483a36d9.js.map": "/lukasz-toy-apps/static/js/main.483a36d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a70370ec.css",
-    "static/js/main.1a46eabc.js"
+    "static/css/main.455993d1.css",
+    "static/js/main.483a36d9.js"
   ]
 }
